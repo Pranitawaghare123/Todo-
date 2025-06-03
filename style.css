@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.con{
+    height: 120vh;
+    width: 120vw;
+    background-color: rgb(119, 135, 130);
+    padding :30px
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 33px;
+    font-weight: 600;
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    margin-left: 30px;
+    border: solid black 2px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(14, 73, 53);
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.ularea{
+    height: 80vh;
+    width: 80vw;
+    background-color: rgb(225, 224, 220);
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 100px;
+    border: solid rgb(43, 39, 33) 2px;
+}
+.ularea li{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    list-style:decimal;
+    font-weight: 500;
+}
+h1{
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
